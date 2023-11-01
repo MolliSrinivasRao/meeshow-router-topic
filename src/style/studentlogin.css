@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+label{
+    font-weight: 900;
+}
+button{
+    margin-top: 2rem;
+}
+.student-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    box-shadow: 0.9rem 0rem 2rem 0.2rem;
+}

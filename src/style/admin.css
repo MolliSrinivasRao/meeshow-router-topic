@@ -1,0 +1,16 @@
+.admin-header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.admin-form{
+    width: 25rem;
+    height: auto;
+    padding: 3rem;
+    border: 2px solid red;
+    box-shadow: 0.3rem 0.3rem 5rem 0.3rem;
+
+}
