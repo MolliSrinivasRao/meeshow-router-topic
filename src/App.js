@@ -7,6 +7,7 @@ import Navbar from "./components/navbar";
 import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
 import Adminlogin from "./components/adminlogin";
 import Studentlogin from "./components/studentlogin";
+import Errorhandle from "./components/errorhandle";
 
 function Linktag() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="Login" element={<Login />}>
           <Route path="Adminlogin" element={<Adminlogin />}></Route>
           <Route path="Studentlogin" element={<Studentlogin />}></Route>
+          <Route path="*" element={<Errorhandle />}></Route>
         </Route>
         <Route path="/Home" element={<Home />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
